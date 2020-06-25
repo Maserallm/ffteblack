@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  color: black;
+  font-family: "montserrat", sans-serif;
+  /* text-shadow: 0 0.5px 0 rgba(0, 0, 0, 0.5); */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Body config */
+body {
+  margin: 0;
+  /* overflow: hidden; */
+  /* overflow-y: hidden; */
+  /* Background Image w/ parallax effect */
+  /* background-image: url("/images/FullSizeRender-3.jpeg"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* min-height: calc(100vh - 100px); */
+  min-height: auto;
+  /* background-size: minmax(340px, auto); */
+  line-height: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover,
+a:active,
+a:link,
+/* a:visited {
+  text-decoration: none;
+  background-color: white;
+} */
+
+a:active,
+a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+.no_nav {
+  display: none;
+}
