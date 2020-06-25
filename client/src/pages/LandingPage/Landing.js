@@ -40,14 +40,14 @@ const Landing = () => {
       {window.innerWidth < 769 ? (
         <YouTube
           opts={opts1}
-          videoId="xsyJkuGfG5g"
+          videoId="rmQpxSkvGL0"
           onReady={onReady}
           className={landStyles.yt_land_playermb}
         />
       ) : (
         <YouTube
           opts={opts}
-          videoId="xsyJkuGfG5g"
+          videoId="rmQpxSkvGL0"
           onReady={onReady}
           className={landStyles.yt_land_player}
         />
