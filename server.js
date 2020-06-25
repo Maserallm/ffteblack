@@ -50,9 +50,6 @@ app.post("/api/form", (req, res) => {
     // host: "smtp.sendgrid.net",
     port: 2525,
     auth: {
-      // Username: "apikey",
-      // Password:
-      //   "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"
       user: "0030ff440c0263",
       pass: "b6ca812132cfea"
       // type: "OAuth2",
