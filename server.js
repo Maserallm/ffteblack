@@ -46,8 +46,8 @@ app.post("/api/form", (req, res) => {
     `;
 
   const transporter = nodemailer.createTransport({
-    // host: "smtp.mailtrap.io",
-    host: "smtp.sendgrid.net",
+    host: "smtp.mailtrap.io",
+    // host: "smtp.sendgrid.net",
     port: 2525,
     auth: {
       // Username: "apikey",
