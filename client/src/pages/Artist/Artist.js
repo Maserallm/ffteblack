@@ -28,7 +28,6 @@ const Artist = () => {
 
           {/* <!-- Artist Profile --> */}
           <div className={artist.header_artist_photo}>
-            <div className={artist.sidebar}></div>
             <div className={artist.header_artist_info}>
               <div>
                 <img
@@ -74,16 +73,8 @@ const Artist = () => {
                         rel="noopener noreferrer" // eslint-disable-next-line
                       >
                         {/* eslint-disable-next-line*/}
-                        <Apple />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://open.spotify.com/album/3Ua56fWXUnAr83GApoyAa6"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Spotify />
+                        <i className="fab fa-soundcloud"></i>
+                        {/* <Apple /> */}
                       </a>
                     </li>
                     <li>

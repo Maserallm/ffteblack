@@ -18,9 +18,9 @@ body {
   /* overflow-y: hidden; */
   /* Background Image w/ parallax effect */
   /* background-image: url("/images/FullSizeRender-3.jpeg"); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
   /* min-height: calc(100vh - 100px); */
   min-height: auto;
   /* background-size: minmax(340px, auto); */
