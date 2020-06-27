@@ -5,9 +5,9 @@ import foreverLink from "../../images/foreverlink01.jpg";
 import whynotsnap from "../../images/why not snap.JPG";
 import sumthing2hold from "../../images/sumthing2holdfornow_ep.jpg";
 // import applemusic from "../../images/apple-music.svg";
-import Apple from "../../components/SVG/SVG";
-import Spotify from "../../components/SVG/SVG2";
-import Youtube from "../../components/SVG/SVG3";
+// import Apple from "../../components/SVG/SVG";
+// import Spotify from "../../components/SVG/SVG2";
+// import Youtube from "../../components/SVG/SVG3";
 import artist from "./artist.module.css";
 import "./artist.module.css";
 
@@ -68,22 +68,26 @@ const Artist = () => {
                   <ul className={artist.music_links}>
                     <li>
                       <a
-                        href="https://music.apple.com/us/album/forever-link-ep/1439140729"
+                        href="https://soundcloud.com/eazyffte/sets/sumthing-2-hold-for-now"
                         target="_blank"
                         rel="noopener noreferrer" // eslint-disable-next-line
                       >
                         {/* eslint-disable-next-line*/}
-                        <i className="fab fa-soundcloud"></i>
+                        <p className={artist.music_links_fa}>
+                          <i className="fab fa-soundcloud"></i>
+                        </p>
                         {/* <Apple /> */}
                       </a>
                     </li>
                     <li>
                       <a
-                        href="https://www.youtube.com/playlist?list=OLAK5uy_ne0ahSzHrf2V-cn1MFcKLsZOy74MnCwws"
+                        href="https://www.youtube.com/playlist?list=PL30TohooSnj367AjiemnRgSXFNT1NhAHS"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i class="fab fa-youtube"></i>
+                        <p className={artist.music_links_fa}>
+                          <i class="fab fa-youtube"></i>
+                        </p>
                         {/* <Youtube /> */}
                       </a>
                     </li>
@@ -98,8 +102,9 @@ const Artist = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        {/* <i class="fab fa-youtube"></i> */}
-                        <Youtube />
+                        <p className={artist.music_links_fa}>
+                          <i class="fab fa-youtube"></i>
+                        </p>
                       </a>
                     </li>
                   </ul>
@@ -113,7 +118,10 @@ const Artist = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Apple />
+                        <p className={artist.music_links_fa}>
+                          <i class="fab fa-apple"></i>
+                        </p>
+                        {/* <Apple /> */}
                       </a>
                     </li>
                     <li>
@@ -122,7 +130,9 @@ const Artist = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Spotify />
+                        <p className={artist.music_links_fa}>
+                          <i class="fab fa-spotify"></i>
+                        </p>
                       </a>
                     </li>
                     <li>
@@ -131,8 +141,9 @@ const Artist = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        {/* <i class="fab fa-youtube"></i> */}
-                        <Youtube />
+                        <p className={artist.music_links_fa}>
+                          <i class="fab fa-youtube"></i>
+                        </p>
                       </a>
                     </li>
                   </ul>

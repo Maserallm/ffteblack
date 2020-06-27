@@ -184,6 +184,11 @@ video {
   justify-content: center;
 }
 
+.music_links_fa {
+  font-size: 40px;
+  margin: 0px 50px;
+}
+
 #why_not_link {
   padding-right: 15px;
 }
