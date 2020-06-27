@@ -64,7 +64,13 @@ const Artist = () => {
               </div>
               <div className={artist.music_content}>
                 <div className={artist.music_content_item}>
-                  <img src={sumthing2hold} alt="Sumthing 2 Hold For Now" />
+                  <a
+                    href="https://www.youtube.com/playlist?list=PL30TohooSnj367AjiemnRgSXFNT1NhAHS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={sumthing2hold} alt="Sumthing 2 Hold For Now" />
+                  </a>
                   <ul className={artist.music_links}>
                     <li>
                       <a
@@ -94,7 +100,13 @@ const Artist = () => {
                   </ul>
                 </div>
                 <div className={artist.music_content_item}>
-                  <img src={whynotsnap} alt="Why Not Snap" />
+                  <a
+                    href="https://www.youtube.com/playlist?list=PL30TohooSnj0EbBCXkBX_vDMU-jwFkx3u"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={whynotsnap} alt="Why Not Snap" />
+                  </a>
                   <ul className={artist.music_links}>
                     <li id="why_not_link">
                       <a
@@ -110,7 +122,13 @@ const Artist = () => {
                   </ul>
                 </div>
                 <div className={artist.music_content_item}>
-                  <img src={foreverLink} alt="Forever Link" width="" />
+                  <a
+                    href="https://www.youtube.com/playlist?list=OLAK5uy_ne0ahSzHrf2V-cn1MFcKLsZOy74MnCwws"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={foreverLink} alt="Forever Link" width="" />
+                  </a>
                   <ul className={artist.music_links}>
                     <li>
                       <a
