@@ -83,7 +83,8 @@ const Artist = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Youtube />
+                        <i class="fab fa-youtube"></i>
+                        {/* <Youtube /> */}
                       </a>
                     </li>
                   </ul>
@@ -97,6 +98,7 @@ const Artist = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
+                        {/* <i class="fab fa-youtube"></i> */}
                         <Youtube />
                       </a>
                     </li>
@@ -129,6 +131,7 @@ const Artist = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
+                        {/* <i class="fab fa-youtube"></i> */}
                         <Youtube />
                       </a>
                     </li>

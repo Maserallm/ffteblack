@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "santos_dumont";
+  src: url("./fonts/santo___-webfont.woff") format("woff"),
+    url("./fonts/santo___-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "impact";
+  src: url("./fonts/Impact.woff") format("woff"),
+    url("./fonts/Impact.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Body config */
 .container 
 /* CSS for SVG Overlay */
@@ -50,7 +66,7 @@ svg {
 
 .cls_1 {
   font-size: 662.98px;
-  font-family: Impact;
+  font-family: impact;
 }
 .cls_2 {
   letter-spacing: 0.03em;
@@ -58,9 +74,10 @@ svg {
 .cls_3 {
   letter-spacing: 0em;
 }
+
 .cls_4 {
   font-size: 92.06px;
-  font-family: SANTOSDUMONT, SANTOS DUMONT;
+  font-family: santos_dumont, SANTOSDUMONT, SANTOS DUMONT;
 }
 .cls_5 {
   letter-spacing: 0.03em;
