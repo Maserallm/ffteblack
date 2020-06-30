@@ -26,7 +26,7 @@ const Home = () => {
               >
                 <source
                   type="video/mp4"
-                  src="https://woo-videos.s3.us-east-2.amazonaws.com/ffteintro.mov"
+                  src="https://d3gvojg6vlm5u1.cloudfront.net/ffteintro.mov"
                 />
               </video>
             </div>
