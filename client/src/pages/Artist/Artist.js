@@ -1,13 +1,6 @@
 import React, { Fragment } from "react";
-// import { Link } from "react-router-dom";
 import eazysign from "../../images/eazysignature01.png";
-import foreverLink from "../../images/foreverlink01.jpg";
-import whynotsnap from "../../images/why not snap.JPG";
-import sumthing2hold from "../../images/sumthing2holdfornow_ep.jpg";
-// import applemusic from "../../images/apple-music.svg";
-// import Apple from "../../components/SVG/SVG";
-// import Spotify from "../../components/SVG/SVG2";
-// import Youtube from "../../components/SVG/SVG3";
+
 import artist from "./artist.module.css";
 import "./artist.module.css";
 
@@ -31,10 +24,15 @@ const Artist = () => {
             <div className={artist.header_artist_info}>
               <div>
                 <img
-                  src="https://woo-videos.s3.us-east-2.amazonaws.com/eazycover.jpeg"
+                  src="https://res.cloudinary.com/hcqtx6vth/image/upload/v1594993296/DA463AAE-7D40-40F8-9EDB-8F8B5D2C6EA4_d55a3a.jpg"
                   alt="EAZY"
                   className={artist.eazy}
                 />
+                {/* <img
+                  src="https://woo-videos.s3.us-east-2.amazonaws.com/eazycover.jpeg"
+                  alt="EAZY"
+                  className={artist.eazy}
+                /> */}
               </div>
               <div className={artist.bio}>
                 <h4>EAZY</h4>
@@ -69,7 +67,10 @@ const Artist = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={sumthing2hold} alt="Sumthing 2 Hold For Now" />
+                    <img
+                      src="https://res.cloudinary.com/hcqtx6vth/image/upload/v1594993619/sumthing2holdfornow_ep_ossequ.jpg"
+                      alt="Sumthing 2 Hold For Now"
+                    />
                   </a>
                   <ul className={artist.music_links}>
                     <li>
@@ -92,7 +93,7 @@ const Artist = () => {
                         rel="noopener noreferrer"
                       >
                         <p className={artist.music_links_fa}>
-                          <i class="fab fa-youtube"></i>
+                          <i className="fab fa-youtube"></i>
                         </p>
                         {/* <Youtube /> */}
                       </a>
@@ -105,7 +106,10 @@ const Artist = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={whynotsnap} alt="Why Not Snap" />
+                    <img
+                      src="https://res.cloudinary.com/hcqtx6vth/image/upload/v1594993506/why_not_snap_nger8o.jpg"
+                      alt="Why Not Snap"
+                    />
                   </a>
                   <ul className={artist.music_links}>
                     <li id="why_not_link">
@@ -115,7 +119,7 @@ const Artist = () => {
                         rel="noopener noreferrer"
                       >
                         <p className={artist.music_links_fa}>
-                          <i class="fab fa-youtube"></i>
+                          <i className="fab fa-youtube"></i>
                         </p>
                       </a>
                     </li>
@@ -127,7 +131,11 @@ const Artist = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={foreverLink} alt="Forever Link" width="" />
+                    <img
+                      src="https://res.cloudinary.com/hcqtx6vth/image/upload/v1594993635/foreverlink01_xcvqvj.jpg"
+                      alt="Forever Link"
+                      width=""
+                    />
                   </a>
                   <ul className={artist.music_links}>
                     <li>
@@ -137,7 +145,7 @@ const Artist = () => {
                         rel="noopener noreferrer"
                       >
                         <p className={artist.music_links_fa}>
-                          <i class="fab fa-apple"></i>
+                          <i className="fab fa-apple"></i>
                         </p>
                         {/* <Apple /> */}
                       </a>
@@ -149,7 +157,7 @@ const Artist = () => {
                         rel="noopener noreferrer"
                       >
                         <p className={artist.music_links_fa}>
-                          <i class="fab fa-spotify"></i>
+                          <i className="fab fa-spotify"></i>
                         </p>
                       </a>
                     </li>
@@ -160,7 +168,7 @@ const Artist = () => {
                         rel="noopener noreferrer"
                       >
                         <p className={artist.music_links_fa}>
-                          <i class="fab fa-youtube"></i>
+                          <i className="fab fa-youtube"></i>
                         </p>
                       </a>
                     </li>

@@ -218,7 +218,7 @@ video {
   transform: scale(1.5);
 } */
 
-@media (max-width: 703px) {
+@media (max-width: 375px) {
   .header_main {
     width: fit-content;
   }

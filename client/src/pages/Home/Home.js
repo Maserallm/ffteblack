@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
+import BGvideo from "./BGvideo";
 // import ffteLogo from "../images/ffte-logo.svg";
 // import styles from "./home.css";
 import homeStyles from "./home.module.css";
@@ -11,7 +12,8 @@ const Home = () => {
         <div className={homeStyles.container}>
           <div className={homeStyles.header_wrap}>
             <div className={homeStyles.full_screen_wrap}>
-              <video
+              <BGvideo />
+              {/* <video
                 className={homeStyles.vid_2}
                 autoPlay={true}
                 loop={true}
@@ -28,7 +30,7 @@ const Home = () => {
                   type="video/mp4"
                   src="https://d3gvojg6vlm5u1.cloudfront.net/ffteintro.mov"
                 />
-              </video>
+              </video> */}
             </div>
 
             <div className={homeStyles.ffte}>
@@ -54,7 +56,7 @@ const Home = () => {
                     id="heading"
                     transform="translate(417.31 593.69) scale(0.96 1)"
                   >
-                    <Link className="artist zoom" to="/artist">
+                    <Link className="artist" to="/artist">
                       <tspan>F</tspan>
                     </Link>
                     {/* <g>

@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import ContactForm from "../../components/Contact Form/ContactForm";
-import eazybio from "../../images/eazybio.png";
+// import eazybio from "../../images/eazybio.png";
 import eazystate from "../../images/eazystatement0528.png";
 // import b5 from "../../images/b5_main_photo.png";
 import b5statement from "../../images/b5statement.PNG";
-import coldbloodlogo from "../../images/coldbloodLOGO.jpg";
+// import coldbloodlogo from "../../images/coldbloodLOGO.jpg";
 import coldbloodstatement from "../../images/coldbloodstatement.PNG";
 // import styles from "./connect.css";
 import "./connect.css";
@@ -35,7 +35,10 @@ const Connect = () => {
             <div className="team-info">
               <div className="team-members ">
                 <figure>
-                  <img src={eazybio} alt="EAZY" />
+                  <img
+                    src="https://res.cloudinary.com/hcqtx6vth/image/upload/v1595211033/eazybiocloudinary_j7zlfk.png"
+                    alt="EAZY"
+                  />
                   <figcaption>
                     <ul className="eazy-media">
                       EAZY | CEO
@@ -156,7 +159,7 @@ const Connect = () => {
                 <figure>
                   <img
                     // src={coldbloodlogo}
-                    src={coldbloodlogo}
+                    src="https://res.cloudinary.com/hcqtx6vth/image/upload/v1594993537/coldbloodLOGO_qhzvkg.jpg"
                     alt="ColdBlood"
                     width="100%"
                     height=""
