@@ -16,7 +16,6 @@
 ul {
   list-style: none;
   display: flex;
-  /* margin-left: -42px; */
 }
 
 .cold-media {
@@ -34,7 +33,6 @@ figcaption li {
 .header_main {
   display: grid;
   gap: 10px;
-  /* grid-template-rows: auto auto auto; */
 }
 
 .header-main h1 {
@@ -52,17 +50,11 @@ figcaption li {
   text-align: center;
 }
 
-/* .about-ffte p {
-  margin: 0 150px;
-} */
-
 /* team profiles */
 .team {
   margin: 1rem 0;
   display: grid;
   grid-template-rows: 1fr;
-  /* grid-template-rows: 1fr 12fr 1fr; */
-  /* grid-area: "side main side"; */
 }
 
 .team-info {
@@ -70,7 +62,6 @@ figcaption li {
   gap: 20px;
   justify-content: start;
   align-items: center;
-  /* padding: 5%; */
   line-height: 1.7rem;
 }
 
@@ -90,7 +81,6 @@ figcaption li {
 
 .team-members img:hover {
   filter: blur(4px);
-  /* transform: scale(1); */
 }
 
 /* Bottom Page NavBar */
@@ -136,7 +126,6 @@ figcaption li {
 .contact-form {
   display: block;
   margin-top: 0em;
-  margin: 0 20rem;
 }
 
 .user_info {
@@ -361,17 +350,9 @@ textarea {
   }
 }
 
-@media (max-width: 540px) {
-  .eazy-media {
-    list-style: none;
-    display: flex;
-    margin-left: 0px;
-  }
-}
-
 @media (max-width: 768px) {
   .contact-form {
-    margin: 0 9.5rem;
+    margin: auto;
   }
 
   .header-main {
@@ -385,5 +366,57 @@ textarea {
     list-style: none;
     display: flex;
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 540px) {
+  .eazy-media {
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 0px;
+    padding: 0px;
+  }
+
+  figcaption {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .eazy-statement {
+    padding-right: 38px;
+    max-width: 375px;
+  }
+
+  .cold-media {
+    right: -30px;
+  }
+
+  .contact-ffte {
+    max-width: 375px;
+  }
+
+  .contact-ffte > p {
+    text-align: center;
+  }
+
+  .contact-form {
+    max-width: 375px;
+    margin: auto;
+  }
+
+  figcaption li {
+    right: 0px;
+  }
+
+  figure {
+    margin: 0px;
+    max-width: 375px;
+  }
+
+  .team-members {
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   }
 }

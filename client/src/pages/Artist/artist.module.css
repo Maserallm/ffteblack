@@ -13,10 +13,10 @@
   line-height: 1.5rem;
 }*/
 
+/* Body config */
 ul {
   list-style: none;
   display: flex;
-  /* padding: 0; */
 }
 
 .header_main {
@@ -50,16 +50,11 @@ ul {
   grid-template-columns: 12fr;
   grid-template-rows: 12fr;
   height: auto;
-  /* grid-template-areas: " hero"; */
 }
 
 .cover {
-  /* grid-area: hero; */
   display: flex;
-  /* background: white url(/images/EazySignature.png); */
   background-size: cover;
-  /* grid-auto-columns: 1fr 1fr;  */
-  /* text-align: center; */
   margin-top: 10px;
   min-height: 200px;
   background-position: bottom right;
@@ -71,12 +66,7 @@ ul {
 }
 
 .cover img {
-  /* display: grid; */
-  /* grid-template-columns: repeat(3, 1fr); */
-  /* margin: 15%; */
-  /* grid-column: span 1 /-1; */
   width: 100%;
-  /* justify-items: center; */
 }
 
 /* Artist Profiles and Photos*/
@@ -107,10 +97,6 @@ ul {
   line-height: 1.7rem;
   grid-column: span 1/3;
 }
-
-/* .header_artist_info li {
-  padding-right: 15px;
-} */
 
 .eazy {
   max-width: 100%;
@@ -145,7 +131,6 @@ video {
 }
 .music_content_item img:hover {
   filter: blur(4px);
-  /* transform: scale(1); */
 }
 
 .music_content_svg {
@@ -173,10 +158,6 @@ video {
   display: grid;
 }
 
-/* .track_info:hover {
-  opacity: 1;
-} */
-
 .music_links {
   list-style: none;
   display: flex;
@@ -187,6 +168,7 @@ video {
 .music_links_fa {
   font-size: 40px;
   margin: 0px 50px;
+  color: black;
 }
 
 #why_not_link {
@@ -197,34 +179,21 @@ video {
   max-width: 200px;
 }
 
-/* .menu_nav {
-  display: grid;
-  justify-content: center;
-}
-
-.menu_nav li {
-  margin-left: 50px;
-  margin-right: 50px;
-  font-family: santos_dumont;
-}
-
-.zoom {
-  transition: transform 0.2s;
-}
-
-.zoom:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-} */
-
-@media (max-width: 375px) {
+@media (max-width: 400px) {
+  body {
+    overflow-x: none;
+  }
   .header_main {
     width: fit-content;
   }
 
   .out_cover {
     margin: auto;
+  }
+
+  .cover {
+    padding: 0px;
+    margin-top: 0px;
   }
 
   .cover img {
@@ -240,9 +209,14 @@ video {
   .header_artist_info {
     padding: 0px;
   }
+  .music_links li {
+    max-width: 100px;
+  }
+
   .music_links {
     padding: 0px;
     margin: 0px;
+    margin-left: -50px;
   }
 
   .music_content_svg {
@@ -254,30 +228,3 @@ video {
     padding-right: 15px;
   }
 }
-/* @media (max-width: 568px) {
-  .header_main {
-    width: fit-content;
-  }
-
-  .out_cover {
-    margin: auto;
-  }
-
-  .cover img {
-    width: 350px;
-  }
-  .music_content {
-    margin-top: 2rem;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  }
-  .music_content_svg {
-    width: 100%;
-    position: unset;
-  }
-
-  #why_not_link {
-    padding-right: 15px;
-  }
-} */

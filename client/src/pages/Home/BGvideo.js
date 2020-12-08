@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import homeStyles from "./home.module.css";
+
 const desktopVideo =
   "https://res.cloudinary.com/hcqtx6vth/video/upload/v1607219729/ffte_website_video_02_tdetv0.mp4";
 const tabletVideo =
